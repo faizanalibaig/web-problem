@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Directors</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: beige;
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+        .navbar {
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            height: 60px;
+        }
+        .navbar a {
+            padding: 14px 20px;
+            text-decoration: none;
+            color: #f2f2f2;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .footer {
+            background-color: #333;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+        }
+        .footer .contact_us {
+            color: #f2f2f2;
+            padding: 1% 4%;
+        }
+        .footer .contact_us .email {
+            display: flex;
+        }
+        .footer .contact_us img {
+            padding-left: 10px;
+            padding-top: 5px;
+        }
+        .footer .contact_us .phone {
+            display: flex;
+        }
+        .footer #contact-me {
+            display: flex;
+        }
+        .footer .social {
+            color: #f2f2f2;
+            padding-left: 60%;
+            padding-top: 40px;
+        }
+        .carousel-inner img {
+            height: 10%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="https://www.imdb.com/list/ls091520106/" target="_blank">Top 100 Movies</a>
+    <a href="https://www.imdb.com/list/ls057886464/" target="_blank">Top 100 Shows</a>
+</div>
+
+<div id="carouselExampleCaptions" class="carousel slide directors-image-slider">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://cdn.britannica.com/10/176910-004-6AB832FF/Francis-Ford-Coppola-Marlon-Brando-The-Godfather.jpg?s=1500x700&q=85" class="d-block w-100" alt="Francis Ford Coppola">
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.usatoday.com/gcdn/presto/2018/12/06/USAT/498aef0c-fee2-439a-9b1f-a93a952e92c1-XXX_ZX15615_d_spielberg_dvd.jpg" class="d-block w-100" alt="Steven Spielberg">
+        </div>
+        <div class="carousel-item">
+            <img src="https://media.newyorker.com/photos/5ace30fe3230086f4a5f9cc1/master/pass/180423_r31902.jpg" class="d-block w-100" alt="Stanley Kubrick">
+        </div>
+        <div class="carousel-item">
+            <img src="https://variety.com/wp-content/uploads/2018/10/leonardo-dicaprio-martin-scorsese.jpg" class="d-block w-100" alt="Martin Scorsese">
+        </div>
+        <div class="carousel-item">
+            <img src="https://i.ytimg.com/vi/ljjPu0P28RQ/maxresdefault.jpg" class="d-block w-100" alt="Christopher Nolan">
+        </div>
+        <div class="carousel-item">
+            <img src="https://variety.com/wp-content/uploads/2019/10/jason-statham-guy-ritchie.jpg" class="d-block w-100" alt="Guy Ritchie">
+        </div>
+        <div class="carousel-item">
+            <img src="https://directorsseries.net/wp-content/uploads/2016/02/dffight.jpg" class="d-block w-100" alt="David Fincher">
+        </div>
+        <div class="carousel-item">
+            <img src="https://images.inc.com/uploaded_files/image/1920x1080/getty_77177227_200012552000928086_410152.jpg" class="d-block w-100" alt="George Lucas">
+        </div>
+        <div class="carousel-item">
+            <img src="https://itcamefromblog.com/wp-content/uploads/2019/06/mcdalie_fe004_h.jpg?w=1400" class="d-block w-100" alt="Ridley Scott">
+        </div>
+    </div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+</button>
+</div>
+<div class="iframe-container">
+    <!-- Replace the following src values with Wikipedia URLs -->
+    <iframe src="https://en.wikipedia.org/wiki/Francis_Ford_Coppola" title="Francis Ford Coppola"></iframe>
+    <iframe src="https://en.wikipedia.org/wiki/Steven_Spielberg" title="Steven Spielberg"></iframe>
+    <iframe src="https://en.wikipedia.org/wiki/Stanley_Kubrick" title="Stanley Kubrick"></iframe>
+    <iframe src="https://en.wikipedia.org/wiki/Martin_Scorsese" title="Martin Scorsese"></iframe>
+    <iframe src="https://en.wikipedia.org/wiki/Christopher_Nolan" title="Christopher Nolan"></iframe>
+    <iframe src="https://en.wikipedia.org/wiki/Guy_Ritchie" title="Guy Ritchie"></iframe>
+    <iframe src="https://en.wikipedia.org/wiki/David_Fincher" title="David Fincher"></iframe>
+    <iframe src="https://en.wikipedia.org/wiki/George_Lucas" title="George Lucas"></iframe>
+    <iframe src="https://en.wikipedia.org/wiki/Ridley_Scott" title="Ridley Scott"></iframe>
+</div>
+
+<div class="footer">
+    <div class="contact_us">
+        <p id="contact-me"><h2>Contact Me:</h2></p>
+        <div class="email"><p>hameednouman12@gmail.com</p><img src="https://cdn-icons-png.freepik.com/256/10505/10505490.png?uid=R29399475&ga=GA1.1.1242283467.1726509738&semt=ais_hybrid" height="40"></div>
+        <div class="phone"><p>123456789</p><img src="https://cdn-icons-png.freepik.com/256/724/724664.png?uid=R29399475&ga=GA1.1.1242283467.1726509738&semt=ais_hybrid" height="30"></div>
+    </div>
+    <div class="social">
+        <p><h2>Social:</h2></p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/noumanhoonmain/" target="_blank"><img src="https://cdn-icons-png.freepik.com/256/2111/2111463.png?uid=R29399475&ga=GA1.1.1242283467.1726509738&semt=ais_hybrid" height="30px"></a>
+            <a href="https://www.linkedin.com/in/nouman6093/" target="_blank"><img src="https://cdn-icons-png.freepik.com/256/14079/14079318.png?uid=R29399475&ga=GA1.1.1242283467.1726509738&semt=ais_hybrid" height="30px"></a>
+            <a href="https://github.com/nouman6093" target="_blank"><img src="https://cdn-icons-png.freepik.com/256/536/536452.png?uid=R29399475&ga=GA1.1.1242283467.1726509738&semt=ais_hybrid" height="30px"></a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
